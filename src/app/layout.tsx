@@ -23,12 +23,12 @@ export default function RootLayout({
       <body className="bg-zinc-900">
         <Sidebar />
 
-        <div className="ml-80 relative h-screen">
+        <div className="relative ml-80 h-screen">
           <Header />
 
           <HeroPattern />
 
-          <div className="py-24 max-w-4xl px-8 mx-auto">{children}</div>
+          <div className="mx-auto max-w-4xl py-24 px-8">{children}</div>
         </div>
       </body>
     </html>
